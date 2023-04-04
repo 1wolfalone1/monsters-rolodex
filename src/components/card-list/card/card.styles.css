@@ -1,0 +1,26 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #95dada;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    /* From https://css.glass */
+    background: rgba(57, 40, 57, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.4px);
+    -webkit-backdrop-filter: blur(10.4px);
+    border: 1px solid rgba(185, 169, 90, 0.38);
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+    border: 0px;
+
+    transform: scale(1.05);
+}
